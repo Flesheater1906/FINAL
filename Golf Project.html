@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Golf%20Project.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="Golf%20Project.js"></script>
+
+</head>
+<body onload="buildcard()">
+
+
+<div id="overlaycontainer">
+    <div id="contentdiv">
+        <div id="golfbanner">
+            <div class="blackbar">
+                <div class="barleft">
+                    <div id="golflogo"></div>
+                    <div id="logotext">Golf Score Card</div>
+                </div>
+                <div class="barright">
+                    <div id="countdown"></div>
+                </div>
+            </div>
+            <div id="golfcourselabel">Sun River Golf Club</div>
+        </div>
+        <form>
+        <div id="scorecard">
+
+            <div id="leftcard"></div>
+            <div id="rightcard"></div>
+
+            <button type="button" onclick="addPlayer();">Add player</button>
+            <button type="button" onclick="removePlayer();">Remove player</button>
+            <input value="0" id="P1Results1" name="P1Results1" type="text" disabled="disabled">
+            <input value="0" id="P1Results2" name="P1Results2" type="text" disabled="disabled">
+            <input value="0" id="P1Results3" name="P1Results3" type="text" disabled="disabled">
+
+
+        </div>
+            </form>
+    </div>
+</div>
+
+<div id="container"></div>
+<div> Hello</div>
+
+
+</body>
+</html>
